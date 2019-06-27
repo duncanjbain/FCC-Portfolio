@@ -47,3 +47,15 @@ body {
   width: 100%;
   background-color: lightcoral;
 }
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-links-lists {
+  display: flex;
+
+}
