@@ -5,38 +5,59 @@
     <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FCC Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7ef004dc0f.js"></script>
   </head>
   <body>
       <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
       <header>
-        <nav class="fixed-navbar">
+        <nav class="fixed-navbar" id="navbar">
           <ul class="navbar-list">
-            <li><a class="navbar-link" href="blah">Link #1</a></li>
-            <li><a class="navbar-link" href="blah">Link #2</a></li>
-            <li><a class="navbar-link" href="blah">Link #3</a></li>
+            <li><a class="navbar-link" href="#projects">Portfolio</a></li>
+            <li><a class="navbar-link" href="#contact-link">Contact</a></li>
           </ul>
         </nav>
       </header>
 
       <section id="welcome-section" class="intro-section">
-          <h1>Hello, I'm Duncan Bain</h1>
-          <p>Mechanical Engineer transitioning to Software Engineer</p>
+          <h1>Hi, I'm Duncan</h1>
+          <p>I'm a Mechanical Engineer learning to code!</p>
       </section>
 
-      <section class="projects-section">
+      <section id="projects" class="projects-section">
+              <article class="project-tile">
+                  <a href="https://duncanjbain.github.io/LandingPage/" target="_blank">
+                <img src="img/landing_page.jpg" alt="Landing Page Example"></a>
+                <h3>Landing Page FCC Project</h3>
+                 <p>Created as part of the FCC Responsive Web Design Course, using HTML and CSS</p>
+              </article>
+
+              <article class="project-tile">
+                  <a href="https://duncanjbain.github.io/Survey/" target="_blank">
+                <img src="img/survey_form.png" alt="Survey Form"></a>
+                <h3>Survey Form FCC Project</h3>
+                 <p>Created as part of the FCC Responsive Web Design Course, using HTML and CSS</p>
+              </article>
+
+              <article class="project-tile">
+                  <a href="https://duncanjbain.github.io/FCCTechnicalDocumentation/" target="_blank">
+                <img src="img/tech_docu.png" alt="Technical Documentation"></a>
+                <h3>Technical Documentation FCC Project</h3>
+                 <p>Created as part of the FCC Responsive Web Design Course, using HTML and CSS</p>
+              </article>
 
       </section>
 
-      <section class="contact-section">
-        <header class="contact-header">
-        <h1>You can get in touch with me at the following places...</h1>
-        </header>
+      <section class="contact-section" id="contact-link">
+        <h1>Contact me</h1>
+        <p>You can contact me at the following: duncan@bain.io</p>
+        <p>Or find me on the following:</p>
         <div class="contact-links">
           <ul class="contact-links-lists">
-            <li>Link 1</li>
-            <li>Link 2</li>
-            <li>Link 3</li>
+            <a href="https://twitter.com/duncanbain" target="_blank"><li><i class="fab fa-twitter"></i> Twitter</li></a>
+            <a href="https://github.com/duncanjbain/" target="_blank" id="profile-link"><li><i class="fab fa-github"></i> Github</li></a>
+            <a href="https://codepen.io/duncanbain/" target="_blank"><li><i class="fab fa-codepen"></i> CodePen</li></a>
           </ul>
         </div>
       </section>
